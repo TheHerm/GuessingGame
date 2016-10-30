@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cardinals Guess</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel='stylesheet' type='text/css' href='main.css'>
+
+    <link rel='stylesheet' type='text/css' href='bootstrap.css'>
+
+  </head>
+  <body>
+
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='title'>Cardinals Guess!</h1>
+          <h2 id='subtitle' class='sub'>How many runs did the Cardinals score today?</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input id='player-input' class='center' placeholder="#" maxlength='2' autofocus=autofocus></input>
+
+            <button id='submit' class='btn btn-success'>Go!</button>
+          </div>
+          
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id='guess-list'>
+              <li class='guess'> -</li>
+              <li class='guess'> -</li>
+              <li class='guess'> -</li>
+              <li class='guess'> -</li>
+              <li class='guess'> -</li>
+              </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button id='reset' class='btn btn-warning'>I give up</button>
+            <button id='hint' class='btn btn-info'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center'>
+        <div class='row'>
+          <div class='col-sm-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+          
+          <div class='col-sm-4'>
+            <img src='baseballandcrossedbats.jpg'></img>
+            <h4>Project by TheHerm<h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='St_Louis_Cardinals_1998-present_logo.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="GuessingGame.js"></script>
+
+  </body>
+</html>

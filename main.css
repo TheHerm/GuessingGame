@@ -1,0 +1,133 @@
+<style>
+      html{
+        box-sizing: 'border-box';
+      }
+      
+      ul {
+          list-style: none;
+          padding: 200;
+      }
+      img {
+          display: inline;
+          width: 200px;
+          height: 100px;
+      }
+      #title{
+        font-size: 55px;
+        text-decoration: underline;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+      }
+      .sub{
+        font-size: 40px;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+      }
+      #footer {
+          width: 100%;
+          border-top: solid 5px red;
+          background-color: white;
+          position: fixed;
+          bottom: 0;
+      }
+      #submit {
+        height: 90px;
+        font-size: 40px;
+        font-color: rgb(255,255,255);
+        background: green;
+        border: 3px solid black;
+        border-radius: 50%;
+        position: relative;
+        bottom: 65px;
+        left: 70px;
+      }
+      .center {
+        text-align: center;
+        color: red;
+      }
+
+      #input-parent {
+        width: 160px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      
+      #player-input {
+        background-image: url('http://kindersay.com/files/images/baseball.png');
+        background-size: 355px 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        right: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 150px;
+        border: 3px solid black;
+        border-radius: 50%;
+        width: 235px;        
+      }
+      #menu-btns {
+        position: relative;
+        right: 10px;
+        bottom: 40px;
+      }
+      .winner {
+        font-size: 40px;
+        color: green;
+        text-decoration: underline;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+      }
+      .loser {
+        font-size: 40px;
+        color: black;
+        text-decoration: underline;
+        text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+      }
+      .guessAgain {
+        color: white;
+        text-decoration: underline;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+      }
+      #reset{
+        border: 5px solid black;
+      }
+      #hint{
+        border: 5px solid black;
+      }
+      .guess {
+        display: inline;
+        background-color: red;
+        border: 5px solid white;
+        color: white;
+        border-radius: 50%;
+        font-size: 70px;
+        padding: 0 25px;
+        position: relative;
+        right: 20px;
+        bottom: 50px;
+      }
+      body {
+        background-image: url('bush3.jpg');
+      }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
